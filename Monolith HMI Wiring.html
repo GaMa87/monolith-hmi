@@ -1,3 +1,552 @@
-<!doctype html><html lang="en" data-frame-uuid="2146afea-22d0-4bb0-bbe3-86074a274436" data-frame-uchost="2146afea-22d0-4bb0-bbe3-86074a274436.frame.claudeusercontent.com"><head><meta property="og:title" content="Claude Artifact"><meta name="twitter:title" content="Claude Artifact"><meta name="description" content="Try out Artifacts created by Claude users"><meta property="og:description" content="Try out Artifacts created by Claude users"><meta name="twitter:description" content="Try out Artifacts created by Claude users"><meta property="og:image" content="https://claude.ai/images/claude_ogimage.png"><meta name="twitter:image" content="https://claude.ai/images/claude_ogimage.png"><meta property="og:image:width" content="1138"><meta property="og:image:height" content="640"><meta property="og:image:alt" content="Claude Artifact"><meta name="twitter:card" content="summary"><meta name="robots" content="noindex, nofollow"><link rel="preconnect" href="https://assets-proxy.anthropic.com" crossorigin><link rel="dns-prefetch" href="https://assets-proxy.anthropic.com"><meta name="build-timestamp" content="1791378707"><meta name="build-git-hash" content="642d29869e4589be97fff077182847545cca7704"><meta name="frame-runtime-pin" content="manifest.0a485261030174f9.json"><meta charset="utf-8"><meta name="frame-shell-i18n" data-shipped="en-US,de-DE,fr-FR,ko-KR,ja-JP,es-419,es-ES,it-IT,hi-IN,pt-BR,id-ID" data-catalogs="de-DE:ed14e0c4b4af,fr-FR:d2f2af6294d5,ko-KR:f5c9f04e3b6a,ja-JP:aeec2002082b,es-419:c4558b5f4a59,es-ES:af46957e8e0a,it-IT:5f19645b445a,hi-IN:b1cecb7aa7ad,pt-BR:b08b92947e98,id-ID:04af4c3d5c3f,am:61ec4caeb3d5,bho:3ece0711e70b,bn:889ce74d1864,da:dd5ca0b3e8c9,fi:ad98c551d008,fil:294d42d3f62f,gu:cba64369d99a,ha:eb73d7e4148f,ig:7b7d6616917b,kn:d5ddfcea0e7f,ml:453512f50de3,mr:511e9ee6daf1,nb:bf5514fa286c,nl:cb3c01fbe100,ny:84e6d582363a,om:b727d26c33ee,pt-PT:7476a85a5499,rn:9fcd2ed0eb1c,ru:20c0a3f30d3d,rw:5bd8842913b7,so:ff68dd70afa9,sv:49766e069920,sw:70bca567018b,ta:cfec64022e89,te:981f7bea7036,th:ebb980c0270e,tr:f04104845a63,uk:3c3b56b1bef9,vi:d67f0258e168,wo:1557264a5b25,yo:23bb710c6625,zh-Hans:57b7b6b114b6,zh-Hant:027adcc1b9e4"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta name="referrer" content="no-referrer"><title>Claude Artifact</title><script nonce="DnGqaLAetooYXFTwYz6Nww==">window.__frameInlineProbe=new Error,function(e,t,o){try{var n=window===top&&history.state,r=n&&n.__tempLocation;if(r&&void 0===n.__tempKey&&"string"==typeof r.href){var a=new URL(r.href,location.origin);a.origin===location.origin&&(location.replace(a.href),e.leaving="")}}catch{}if(t?.embedded&&(e.embedded=e.host=""),parent!==window){var c=location.origin,i=location.ancestorOrigins;if(i)i[0]===c&&i[i.length-1]===c&&(e.embedded="");else if(parent===top&&document.referrer)try{new URL(document.referrer).origin===c&&(e.embedded="")}catch{}try{var d=window.frameElement;d&&d.ownerDocument.documentElement.hasAttribute("data-frame-uuid")&&(e.nested="")}catch{}}"embedded"in e&&"none"===(t?.chrome??o.get("chrome"))&&(e.chrome="none",document.querySelector("meta[name=viewport]").setAttribute("content","width=device-width,initial-scale=1,viewport-fit=cover"));var s="desktop"===t?.platform?"host-tools":"comment-mode",m="embedded"in e?t?null!=t.hostcaps?t.hostcaps:(" "+o.get("hostcaps")+" ").indexOf(" "+s+" ")<0?"":s:o.get("hostcaps"):"",l=String(m||"").split(" ").filter(function(e,t,o){return("comment-mode"===e||"comments-list"===e||"comment-composer"===e||"comment-threads"===e||"page-comments"===e||"artifact-nav"===e||"artifact-nav-vanity"===e||"comment-summon"===e||"open-in-claude"===e||"open-chat"===e||"cloud-session"===e||"cowork-task"===e||"no-send-all"===e||"summon-into-chat"===e||"summon-into-session"===e||"summon-into-channel"===e||"connector-off"===e||"confirm-page-sends"===e||"viewer-context"===e||"chrome"===e||"export"===e||"page-foot"===e||"chrome-readonly"===e||"selection-menu"===e||"chat-beside"===e||"claude-tips"===e||"header"===e||"duplicate"===e||"sheet-arrow"===e||"presence"===e||"host-tools"===e||"context-card"===e||"context-send"===e||"context-send-held"===e||"host-nav"===e||"url-anchor"===e||"edge-to-edge"===e||"keyboard-done"===e||"scroll-chain"===e||"save-file"===e||"save-blob"===e||"host-keys"===e||"device-camera"===e||"device-microphone"===e||"device-speech"===e||"device-geolocation"===e||"device-motion"===e||"device-screenshare"===e)&&o.indexOf(e)===t});l.length&&(e.hostcaps=l.join(" "));var h={mode:["light","dark","system"],platform:["web","desktop"],font:["anthropic","system"]};for(var p of Object.keys(h)){var f=t?.[p]??o.get(p[0]);if("mode"===p&&null==t?.mode&&!("embedded"in e))try{var u=JSON.parse(localStorage.getItem("LSS-userThemeMode"));u&&"object"==typeof u&&(u=u.value),"light"!==u&&"dark"!==u||(f=u)}catch(e){}h[p].includes(f)&&(e[p]=f)}}(document.documentElement.dataset,window.claudeDesktopArtifactPane,new URLSearchParams(location.search))</script><script nonce="DnGqaLAetooYXFTwYz6Nww==">!function(){try{var e=document.documentElement.dataset,t=e.frameUuid;if(!t||"leaving"in e||"nested"in e)return;var r=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/,n=new URLSearchParams(location.search),a=self===top&&!("embedded"in document.documentElement.dataset),o=n.get("org"),i=(document.cookie.match(/(?:^|;\s*)lastActiveOrg=([^;]*)/)||[])[1],s=null,c=null;try{var m=a?localStorage.getItem("frame_org_hints"):null;if(null!==m&&m.length<=16384){var d=JSON.parse(m),l=d&&"object"==typeof d?d[t]:null;l&&"object"==typeof l&&"string"==typeof l.o&&"string"==typeof l.a&&r.test(l.a)&&(c=l.o)}}catch(e){}var u=performance.getEntriesByType&&performance.getEntriesByType("navigation")[0]||{};if(a&&("reload"===u.type||"back_forward"===u.type))try{s=sessionStorage.getItem("frame_boot_org:"+t)}catch(e){}var f=o&&r.test(o)?o:s&&r.test(s)?s:c&&r.test(c)?c:i&&r.test(i)?i:null,g=n.get("via"),p=null!==g?g:a?"user_open":"embedded_view",_=n.get("sk"),v=new URLSearchParams;f&&v.set("org",f),p&&v.set("via",p),_&&/^[A-Za-z0-9_-]{16,64}$/.test(_)&&v.set("sk",_);var h=location.pathname.split("/").pop()||"";try{h=decodeURIComponent(h)}catch(e){}var w="";h.toLowerCase().slice(-37)==="-"+t.toLowerCase()?w=h.slice(0,h.length-37):h.length>23&&"-"===h.charAt(h.length-23)&&/^[1-9A-HJ-NP-Za-km-z]{22}$/.test(h.slice(-22))&&(w=h.slice(0,h.length-23)),/^[a-z0-9][a-z0-9-]{0,59}$/.test(w)&&v.set("vanity",w);var y=window.__frameSessionId;null==y&&(y=window.__frameSessionId=crypto.randomUUID?crypto.randomUUID():"");var b="initial";try{var S=function(e){try{var t=sessionStorage.getItem(e);if(!y||!t)return!1;var r=e+"_claim",n=y+"|"+t,a=sessionStorage.getItem(r);if(a===n)return!0;var o=a?a.split("|"):[],i=Number(o[2]);return!(3!==o.length||"reload"!==o[0]||o[1]!==t||!Number.isFinite(i)||Date.now()-i>=3e4)&&(sessionStorage.setItem(r,n),sessionStorage.getItem(r)===n)}catch(e){return!1}},I=(sessionStorage.getItem("frame_chunk_reload")||"").split(":"),k=Number(I[2]),A=I[0]===t&&("chrome"===I[1]||"deferred"===I[1]||"broker"===I[1])&&Number.isFinite(k)&&Date.now()-k<3e5,P="frame_hot_hard_reload:"+t,E=(sessionStorage.getItem(P)||"").split(":"),N=Number(E[2]),T=E[0]===t&&Number.isFinite(N)&&Date.now()-N<3e5,U=function(e){var r=sessionStorage.getItem(e);if(!r)return!1;var n=r.lastIndexOf(":"),a=Number(r.slice(n+1));return r.slice(0,n)===t&&Number.isFinite(a)&&Date.now()-a<3e5}("frame_pin_reload")&&S("frame_pin_reload"),D=A&&S("frame_chunk_reload"),x=T&&S(P);(U||D||x)&&(b="reboot")}catch(e){}v.set("bk",b),v.set("actor","id"),v.set("vt","1");var C="/api/frame/"+t+"?"+v.toString(),F=function(e,t){var r=null==e?null:e.toLowerCase();return null!==r&&-1!==t.indexOf(r)?r:null},$=navigator.userAgent,O={"X-Frame-CP":"go","X-Frame-Platform":F(n.get("platform"),["web","desktop","ios","android","cli"])||($.includes(" Electron/")?"desktop":/Android/.test($)?"android":/iPad|iPhone|iPod/.test($)||$.includes("Macintosh")&&navigator.maxTouchPoints>1?"ios":"web")},z=F(n.get("surface"),["chat","cowork","code","slack","teams","standalone"])||(a?"standalone":"");z&&(O["X-Frame-Surface"]=z);var B=document.head.querySelector('meta[name="build-timestamp"]');B&&B.content&&(O["X-Frame-Client-Version"]=B.content),y&&(O["X-Frame-Session-Id"]=y);var R=function(t){var r=e.frameUchost,n=document.head.querySelector('meta[name="frame-runtime-pin"]');if(r&&n&&!/(^|\.)localhost(:\d+)?$/.test(r)){var a=n.content||"",o="[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}",i=new RegExp("^[A-Za-z0-9_-]{24}\\."+o+"\\."+o+"\\.[0-9]{1,12}(?:\\.(?:"+o+"|oracle|ext|compartment))?(?:\\.v[A-Za-z0-9_-]{1,1023})?$");t.then(function(e){return e&&200===e.status&&!window.__framePregrantOff?e.clone().json():null}).then(function(e){if(e&&"public"!==e.kind&&!1!==e.pregrantEnabled&&!0===e.tokenExchangeEnabled&&"string"==typeof e.ver&&"string"==typeof e.assetToken&&/^[A-Za-z0-9_-]{1,64}$/.test(e.ver)&&i.test(e.assetToken)&&"visible"===document.visibilityState&&!window.__framePregrantOff&&!window.__framePregrant&&"function"==typeof PerformanceServerTiming){var t=e.runtime&&"string"==typeof e.runtime.contract?e.runtime.contract:e.contract;if("string"==typeof t&&/^\d+\.\d+\.\d+$/.test(t)){var n=t.split(".").map(Number);if((n[0]||n[1]||n[2])&&(n[0]<0||0===n[0]&&(n[1]<2||2===n[1]&&n[2]<12)))return}try{if(localStorage.getItem("frame_pregrant_denied"))return;var o=Number(localStorage.getItem("frame_pregrant_noexp"));if(o>0&&Date.now()-o<864e5)return;var s=(JSON.parse(localStorage.getItem("frame_pregrant_nocred"))||{})[r+"|"+e.ver];if("number"==typeof s&&Date.now()-s<2592e6)return;var c=e.assetToken.split("."),m=c.length>4&&"v"===c[c.length-1].charAt(0),d=(JSON.parse(localStorage.getItem("frame_grant_ledger"))||{})[r+"|"+e.ver],l=d?d.e-Date.now():0;m&&c.pop();var u=c[1]+"|"+c[2]+"|"+(c[4]||"")+(m?"|v":"");if(d&&(d.v!==u||d.p!==a?l>0:l>6e5))return}catch(e){}var f=document.createElement("iframe"),g={f:f,sentAt:performance.now()};f.hidden=!0,f.setAttribute("aria-hidden","true"),f.setAttribute("sandbox",""),f.referrerPolicy="no-referrer",f.dataset.pregrant="true",f.name="r-"+Math.random().toString(36).slice(2),f.src="https://"+r+"/_t?__frame_t="+encodeURIComponent(e.assetToken)+"&v="+encodeURIComponent(e.ver)+(a?"&__frame_v="+a:"")+"&__frame_renew=1",f.onload=function(){void 0===g.loaded&&(g.loaded=!0)},f.onerror=function(){void 0===g.loaded&&(g.loaded=!1)},g.cap=setTimeout(function(){f.remove(),window.__framePregrant===g&&(window.__framePregrant=void 0)},2e4),document.documentElement.appendChild(f),window.__framePregrant=g}}).catch(function(){})}},X=function(){return fetch(C,{credentials:"same-origin",headers:O,priority:"high",signal:AbortSignal.timeout(2e4)})};if(parent!==window&&"embedded"in document.documentElement.dataset){var L=null;try{var Z=parent.__frameHostBoot;if((L=Z&&Z[C]||null)&&L.takenAt){var H=performance.getEntriesByType("navigation")[0];(H&&"reload"===H.type||Date.now()-L.takenAt>=5e3)&&(delete Z[C],L=null)}}catch(e){L=null}if(L&&L.res&&"function"==typeof L.res.then){L.takenAt||(L.takenAt=Date.now()),L.sid&&(O["X-Frame-Session-Id"]=window.__frameSessionId=L.sid),"number"==typeof L.at&&"string"==typeof L.from&&(window.__frameHostStart={at:L.at,from:L.from});var J=new Promise(function(e,t){L.res.then(e,t)}).then(function(e){try{var t=204===e.status||205===e.status||304===e.status;return new Response(t?null:e.body,{status:e.status,statusText:e.statusText,headers:e.headers})}catch(e){return X()}});return J.catch(function(){}),window.__frameBootPrefetch={url:C,res:J},window.__frameHostBootDrop=function(){Z[C]===L&&delete Z[C],L.res=null},void R(J)}}var j=X();if(j.catch(function(){}),window.__frameBootPrefetch={url:C,res:j},R(j),!f){var q=fetch("/api/account",{credentials:"same-origin",signal:AbortSignal.timeout(8e3)});q.catch(function(){}),window.__frameAccountPrefetch={res:q}}}catch(e){}}(),function(){try{var e=document.documentElement.dataset,t=e.frameUchost;if(!e.frameUuid||!t||"leaving"in e||"nested"in e)return;var r=document.createElement("iframe"),n={f:r};r.hidden=!0,r.setAttribute("aria-hidden","true"),r.setAttribute("sandbox","allow-same-origin"),r.referrerPolicy="no-referrer",r.dataset.warmup="true",r.src=(/(^|\.)localhost(:\d+)?$/.test(t)?location.protocol:"https:")+"//"+t+"/_warmup",r.onload=function(){void 0===n.at&&(n.at=performance.now())},n.cap=setTimeout(function(){r.remove()},6e4),document.documentElement.appendChild(r),window.__frameWarmup=n}catch(e){}}()</script><script nonce="DnGqaLAetooYXFTwYz6Nww==">!function(){var e={locale:"en-US",messages:null,ready:null};window.__frameI18n=e;try{for(var t=document.querySelector('meta[name="frame-shell-i18n"]'),n=(t&&t.getAttribute("data-shipped")||"").split(",").filter(function(e){return/^[\w-]+$/.test(e)}),a=Object.create(null),r=(t&&t.getAttribute("data-catalogs")||"").split(","),l=0;l<r.length;l++){var o=/^([\w-]+):(\w+)$/.exec(r[l]);o&&!(o[1]in a)&&(a[o[1]]=o[2])}var i=function(e){for(var t=Object.create(null),a=0;a<n.length;a++){var r=n[a].toLowerCase();t[r]=n[a];var l=r.split("-")[0];l in t||(t[l]=n[a])}for(var o=0;o<e.length;o++){var i=e[o];if("string"==typeof i&&i){var c=i.toLowerCase();if(c in t)return t[c];var u=c.split("-")[0];if(u&&u in t)return t[u]}}return null},c=function(e){if("string"!=typeof e||!e)return null;for(var t in a)if(t.toLowerCase()===e.toLowerCase())return t;return i([e])},u=document.documentElement.dataset,s=window.claudeDesktopArtifactPane,f="embedded"in u?c(s&&null!=s.locale?s.locale:new URLSearchParams(location.search).get("locale")):null;if(null===f){var d=null;try{d=localStorage.getItem("spa:locale")}catch(e){}f=d?c(d)||"en-US":i(navigator.languages||[])||"en-US"}e.locale=f,document.documentElement.lang=f,"en-US"!==f&&a[f]&&(e.ready=fetch("/i18n/frame-shell/"+f+".json?v="+a[f],{credentials:"same-origin",signal:"undefined"!=typeof AbortSignal&&AbortSignal.timeout?AbortSignal.timeout(2e4):void 0}).then(function(e){return e.ok?e.json():null}).then(function(t){t&&"object"==typeof t&&!Array.isArray(t)&&(e.messages=t)}),e.ready.catch(function(){}))}catch(e){}}()</script><link rel="preload" as="font" type="font/woff2" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc27851ad-DDVos-BJ.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c0f671921-B-ecX-7c.woff2"><script type="module" crossorigin src="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/frame-shell-Cp0rma50.js" nonce="DnGqaLAetooYXFTwYz6Nww=="></script><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/preload-helper-BWst14uo.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-frame-boot-C0bwV_QB.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/frame-shell-chrome-DEn2g7fM.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/vendor-frame-DBZy84kI.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/rolldown-runtime-C3OYiQ02.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-frame-hJTwFjGQ.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/frame-shell-deferred-Da91eEzr.js"><link rel="modulepreload" crossorigin href="https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/frame-shell-broker-JA0jc34L.js"><style nonce="DnGqaLAetooYXFTwYz6Nww==">:root{--font-anthropic-sans:"anthropic-sans", ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "PingFang TC", "Hiragino Sans", "Apple SD Gothic Neo", "Kohinoor Devanagari", "Kohinoor Bangla", "Kohinoor Telugu", "Tamil Sangam MN", "Kohinoor Gujarati", "Malayalam Sangam MN", "Nirmala UI", "Noto Sans Devanagari UI", "Noto Sans Devanagari", "Noto Sans Bengali UI", "Noto Sans Bengali", "Noto Sans Telugu UI", "Noto Sans Telugu", "Noto Sans Tamil UI", "Noto Sans Tamil", "Noto Sans Gujarati UI", "Noto Sans Gujarati", "Noto Sans Kannada UI", "Noto Sans Kannada", "Noto Sans Malayalam UI", "Noto Sans Malayalam", Thonburi, "Leelawadee UI", "Noto Sans Thai UI", "Noto Sans Thai", Kefa, Ebrima, "Noto Sans Ethiopic", "Abyssinica SIL", sans-serif}@font-face{font-family:anthropic-sans;src:url(https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc27851ad-DDVos-BJ.woff2)format("woff2");font-weight:300 800;font-style:normal;font-display:swap;font-feature-settings:"dlig" 0}@font-face{font-family:anthropic-sans;src:url(https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c9d3a3a49-CJtkx3-S.woff2)format("woff2");font-weight:300 800;font-style:italic;font-display:swap;font-feature-settings:"dlig" 0}:root{--font-anthropic-serif:"anthropic-serif", ui-serif, Georgia, "Times New Roman", "Kohinoor Devanagari", "Kohinoor Bangla", "Kohinoor Telugu", "Tamil Sangam MN", "Kohinoor Gujarati", "Malayalam Sangam MN", "Nirmala UI", "Noto Sans Devanagari UI", "Noto Sans Devanagari", "Noto Sans Bengali UI", "Noto Sans Bengali", "Noto Sans Telugu UI", "Noto Sans Telugu", "Noto Sans Tamil UI", "Noto Sans Tamil", "Noto Sans Gujarati UI", "Noto Sans Gujarati", "Noto Sans Kannada UI", "Noto Sans Kannada", "Noto Sans Malayalam UI", "Noto Sans Malayalam", Thonburi, "Leelawadee UI", "Noto Sans Thai UI", "Noto Sans Thai", Kefa, Ebrima, "Noto Sans Ethiopic", "Abyssinica SIL", serif}@font-face{font-family:anthropic-serif;src:url(https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c66fc489e-2VcCjn5t.woff2)format("woff2");font-weight:300 800;font-style:normal;font-display:swap;font-feature-settings:"dlig" 0}@font-face{font-family:anthropic-serif;src:url(https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/cc410af59-Dcb-9NUS.woff2)format("woff2");font-weight:300 800;font-style:italic;font-display:swap;font-feature-settings:"dlig" 0}:root{--bg:#fff;--fg:#0b0b0b;--mut:#52514e;--spin:#898781;--line:#0b0b0b1a;--div:#0b0b0b0d;--bord:#0b0b0b33;--hov:#0b0b0b0d;--surf:#fff;--brand:#c6613f;--primary:#0b0b0b;--primary-hov:#2c2c2a;--on-primary:#fff;--sec:#ffffff1a;--sec-ring:#0b0b0b1a;--sec-hov:#0b0b0b0d;--picto:#e7e6e1;--page:#fcfcfb}@media (prefers-color-scheme:dark){html:not([data-mode]){--bg:#1a1a19;--fg:#f0efec;--mut:#c3c2b7;--line:#ffffff1a;--div:#ffffff0d;--bord:#fff3;--hov:#ffffff13;--surf:#20201f;--primary:#fff;--primary-hov:#e1e0d9;--on-primary:#0b0b0b;--sec:#ffffff1a;--sec-ring:transparent;--sec-hov:#ffffff24;--picto:#454442;--page:#151515}}html[data-mode=light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light}html[data-mode=dark]{--bg:#1a1a19;--fg:#f0efec;--mut:#c3c2b7;--line:#ffffff1a;--div:#ffffff0d;--bord:#fff3;--hov:#ffffff13;--surf:#20201f;--primary:#fff;--primary-hov:#e1e0d9;--on-primary:#0b0b0b;--sec:#ffffff1a;--sec-ring:transparent;--sec-hov:#ffffff24;--picto:#454442;--page:#151515;--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark}@font-face{font-family:Anthropicons-Variable;src:url(https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c0f671921-B-ecX-7c.woff2)format("woff2-variations");font-weight:400 700;font-display:block}@property --bar{syntax:"<length>";inherits:true;initial-value:0}:root{--bar-h:calc(2.5rem * var(--cds-rem-scale,1));--bar:var(--bar-h);--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light dark}@media (prefers-color-scheme:dark){:root{--lightningcss-light: ;--lightningcss-dark:initial}}@layer{*{box-sizing:border-box;margin:0;padding:0}button{font:inherit;border:0;background:0 0;cursor:pointer;color:inherit}}html,body{overscroll-behavior:none;background:var(--bg);height:100%;color:var(--fg);overflow:hidden}html[data-hostcaps~=scroll-chain],html[data-hostcaps~=scroll-chain] body{overscroll-behavior:auto}body{font:13px/1.4 anthropic-sans,-apple-system,BlinkMacSystemFont,system-ui,sans-serif}#hdr{height:var(--bar-h);justify-content:space-between;align-items:center;gap:8px;padding:0 12px;display:flex;position:relative}html:not([data-embedded]) #hdr,html:not([data-embedded]) #hdr-degraded{border-bottom:1px solid var(--div)}#top-edge{height:var(--bar);background-color:var(--bg);position:fixed;top:0;left:0;right:0}html[data-embedded] #top-edge{display:none}.l,.r{align-items:center;gap:8px;display:flex}.l{flex:1;min-width:0}.r{flex:none}.byline{font-size:var(--cds-font-size-caption,.75rem);color:var(--mut);white-space:nowrap;text-overflow:ellipsis;flex-shrink:0;max-width:312px;overflow:hidden}.l>button[data-title-menu]{flex-shrink:1000;min-width:0;margin-left:-6px;overflow:hidden}.l button[data-title-menu]>span,.l button[data-title-menu] .truncate{min-width:0}.skel{background:var(--hov);border-radius:4px;display:inline-block}.skel-home{flex:none;width:16px;height:16px;margin-right:4px}.skel-title{width:8em;height:1em}.skel-avatar{border-radius:50%;width:24px;height:24px}.degraded-title{white-space:nowrap;text-overflow:ellipsis;font-size:13px;font-weight:400;overflow:hidden}#hdr-degraded,body.chrome-degraded #hdr{display:none}body.chrome-degraded #hdr-degraded{height:var(--bar-h);align-items:center;gap:8px;padding:0 12px;display:flex;position:relative}@media (width<=768px){html:not([data-embedded]) .l{grid-template-columns:minmax(0,1fr);place-items:center start;gap:0;display:grid}html:not([data-embedded]) .l>*{max-width:100%}html:not([data-embedded]) .l>.byline{margin-top:-3px}html:not([data-embedded]) .l>[data-storage]{margin-top:-4px}}html[data-embedded]{--bar-h:calc(2.625rem * var(--cds-rem-scale,1))}html[data-embedded] #hdr{padding:0 8px}html[data-embedded] .byline{flex-shrink:1;max-width:100%}html[data-embedded] .skel-home,html[data-embedded] .skel-title,html[data-embedded] .skel-avatar,html[data-embedded][data-chrome=none] #hdr,html[data-embedded][data-chrome=none] #hdr-degraded,html[data-header-hidden] #hdr,html[data-header-hidden] #hdr-degraded,html[data-header-hidden] #top-edge,html[data-header-hidden] [data-chrome-pill]{display:none}html[data-embedded][data-chrome=none],html[data-header-hidden]{--bar:0px}html[data-host][data-chrome=none]{--bar:env(safe-area-inset-top,0px)}main{inset:var(--bar) 0 0 0;display:flex;position:absolute}html[data-host][data-chrome=none][data-extended-edges~=top] main{top:0}html[data-host][data-chrome=none][data-extended-edges~=top] #loading{top:var(--bar)}#frame-slot{flex:1;min-width:0;position:relative}#loading{justify-content:center;align-items:center;display:flex;position:absolute;inset:0}#loading[hidden]{display:none}#loading.slow{text-align:center;color:var(--mut);flex-direction:column;gap:12px;padding:0 24px;font-size:13px}#loading.slow>button{order:1}#loading:after{content:"";box-sizing:border-box;background:conic-gradient(transparent 40%, var(--spin)) border-box, linear-gradient(var(--line), var(--line)) border-box;border:2px solid #0000;border-radius:50%;width:20px;height:20px;animation:1s linear infinite spin;mask:radial-gradient(farthest-side,#0000 calc(100% - 2px),#000 calc(100% - 1.5px))}@keyframes spin{to{transform:rotate(360deg)}}#frame-content{opacity:0;border:0;width:100%;height:100%;transition:opacity .12s;position:absolute;inset:0}#frame-slot>iframe.swap:not(.ready){opacity:0;pointer-events:none;border:0;width:100%;height:100%;position:absolute;inset:0}#frame-slot>iframe.swap.hot-under:not(.ready){opacity:1}#frame-slot>iframe.hot-under~#frame-content{background:var(--bg)}#frame-slot>iframe.retired{opacity:0;pointer-events:none;border:0;width:100%;height:100%;position:absolute;inset:0}#frame-content.swap{transition:none}#frame-content.swap.crossfade{transition:opacity .12s}#frame-slot>iframe.fading-out{opacity:1;pointer-events:none;border:0;width:100%;height:100%;position:absolute;inset:0}#frame-content.ready{opacity:1}@media (prefers-reduced-motion:reduce){#loading:after{animation:none}#frame-content{transition:none}}body.err #hdr,body.err #hdr-degraded,body.err #top-edge,#err[hidden]{display:none}#err{text-align:center;color:var(--fg);place-content:safe center;gap:8px;padding:96px 16px 128px;display:grid;position:absolute;inset:0;overflow-y:auto}
-@font-face{font-family:Anthropicons-Variable;src:url(https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/c0f671921-B-ecX-7c.woff2)format("woff2-variations");font-weight:400 700;font-display:block}
-</style><meta name="shell-inline-span" content="11632"><meta name="robots" content="noindex, nofollow"><link rel="preconnect" href="https://2146afea-22d0-4bb0-bbe3-86074a274436.frame.claudeusercontent.com"></head><body><div id="top-edge" aria-hidden="true"></div><header id="hdr" tabindex="-1" aria-label="Artifact controls"><span class="skel skel-home" aria-hidden="true"></span><div class="l" aria-hidden="true"><span class="skel skel-title"></span></div><div class="r" aria-hidden="true"><span class="skel skel-avatar"></span></div></header><div id="hdr-degraded"><span class="degraded-title"></span> <span class="byline">Content is user-generated and unverified.</span></div><main><div id="frame-slot" data-frame-uuid="2146afea-22d0-4bb0-bbe3-86074a274436" data-frame-uchost="2146afea-22d0-4bb0-bbe3-86074a274436.frame.claudeusercontent.com" data-frame-tophost="2146afea-22d0-4bb0-bbe3-86074a274436-top.frame.claudeusercontent.com"><div id="loading"><div class="loading-status" role="status" aria-label="Loading" tabindex="-1"></div></div></div></main><div id="err" hidden></div></body></html>
+<!doctype html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Monolith HMI Wiring</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: bench-sheet — one wide schematic sheet, then power, then a pin table and build notes in a two-column reference grid */
+:root{
+  --bg:#f3f4f2; --sheet:#fbfbf9; --fg:#1b1f22; --muted:#5d666c; --line:#d5d9d6; --board:#e6ece8; --boardline:#9aa7a0;
+  --accent:#b8611f;
+  --spi:#2463c7; --tch:#7d4ad1; --io:#b07a00; --rtc:#1f8a4c; --aht:#0f8a8a;
+  --pw5:#d13438; --pw3:#e07b00; --pw12:#8f2d56; --gnd:#3b4248; --nc:#9aa1a6; --avoid:#c9cdd0;
+  --f-display:"Barlow Semi Condensed","Arial Narrow",system-ui,sans-serif;
+  --f-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#121517; --sheet:#181c1f; --fg:#e4e8e6; --muted:#98a2a8; --line:#2c3337; --board:#1d2a24; --boardline:#4b6156;
+  --accent:#e08a45;
+  --spi:#6aa0ff; --tch:#b28cff; --io:#e6b23c; --rtc:#4cc983; --aht:#3cc7c7;
+  --pw5:#ff6b6e; --pw3:#ffa040; --pw12:#e07aa6; --gnd:#aab4ba; --nc:#6b747a; --avoid:#3d4549; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#121517; --sheet:#181c1f; --fg:#e4e8e6; --muted:#98a2a8; --line:#2c3337; --board:#1d2a24; --boardline:#4b6156;
+  --accent:#e08a45;
+  --spi:#6aa0ff; --tch:#b28cff; --io:#e6b23c; --rtc:#4cc983; --aht:#3cc7c7;
+  --pw5:#ff6b6e; --pw3:#ffa040; --pw12:#e07aa6; --gnd:#aab4ba; --nc:#6b747a; --avoid:#3d4549; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1240px;margin:0 auto;padding-inline:16px;padding-block:28px 64px}
+header{display:grid;gap:6px;margin-bottom:22px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--f-display);font-weight:700;font-size:clamp(30px,4.4vw,46px);line-height:1.05;margin:0;text-wrap:balance}
+h2{font-family:var(--f-display);font-weight:600;font-size:24px;margin:0 0 10px;text-wrap:balance}
+.lede{max-width:72ch;color:var(--muted);margin:0}
+section{margin-top:34px}
+figure{margin:0;background:var(--sheet);border:1px solid var(--line);border-radius:10px;padding:14px}
+.scroll{overflow-x:auto}
+figcaption{color:var(--muted);font-size:13.5px;margin-top:10px;max-width:90ch}
+svg.wd{display:block;width:100%;min-width:900px;height:auto;font-family:var(--f-mono)}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;margin:12px 2px 0;font-size:13px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{display:inline-block;width:22px;height:4px;border-radius:2px;background:currentColor}
+/* svg styling */
+.w{fill:none;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.w.rail{stroke-width:3.4}
+.w.spi{stroke:var(--spi)} .w.tch{stroke:var(--tch)} .w.io{stroke:var(--io)} .w.rtc{stroke:var(--rtc)} .w.aht{stroke:var(--aht)}
+.w.pw5{stroke:var(--pw5)} .w.pw3{stroke:var(--pw3)} .w.pw12{stroke:var(--pw12)} .w.gnd{stroke:var(--gnd)} .w.nc{stroke:var(--nc);stroke-dasharray:3 3}
+.w.diodebar{stroke:var(--fg)}
+.diode{fill:var(--fg)}
+.dot{stroke:none}
+.dot.spi{fill:var(--spi)} .dot.tch{fill:var(--tch)} .dot.pw5{fill:var(--pw5)} .dot.pw3{fill:var(--pw3)}
+.board{fill:var(--board);stroke:var(--boardline);stroke-width:1.5}
+.module{fill:var(--sheet);stroke:var(--boardline)}
+.usb{fill:var(--sheet);stroke:var(--boardline);stroke-width:1.5}
+.mbox{fill:var(--sheet);stroke:var(--fg);stroke-opacity:.55;stroke-width:1.3}
+.pin{stroke:var(--sheet);stroke-width:1.5}
+.pin.spi{fill:var(--spi)} .pin.tch{fill:var(--tch)} .pin.io{fill:var(--io)} .pin.rtc{fill:var(--rtc)} .pin.aht{fill:var(--aht)}
+.pin.pw5{fill:var(--pw5)} .pin.pw3{fill:var(--pw3)} .pin.pw12{fill:var(--pw12)} .pin.gnd{fill:var(--gnd)} .pin.nc{fill:var(--nc)}
+.pin.free{fill:var(--sheet);stroke:var(--boardline)} .pin.avoid{fill:var(--avoid);stroke:var(--boardline)}
+.flag{stroke:none} .flag.pw5{fill:var(--pw5)} .flag.pw3{fill:var(--pw3)} .flag.gnd{fill:var(--gnd)}
+.t-flag{font-size:10.5px;font-weight:500;fill:var(--sheet)}
+.t-pin{font-size:11.5px;fill:var(--fg)}
+.t-pin.free{fill:var(--muted)} .t-pin.avoid{fill:var(--nc);text-decoration:line-through}
+.t-pin.spi{fill:var(--spi)} .t-pin.tch{fill:var(--tch)} .t-pin.io{fill:var(--io)} .t-pin.rtc{fill:var(--rtc)} .t-pin.aht{fill:var(--aht)}
+.t-pin.pw5{fill:var(--pw5)} .t-pin.pw3{fill:var(--pw3)} .t-pin.gnd{fill:var(--fg)}
+.t-mod{font-family:var(--f-display);font-weight:600;font-size:15px;fill:var(--fg)}
+.t-title{font-family:var(--f-display);font-weight:700;font-size:22px;fill:var(--fg)}
+.t-sub{font-size:11px;fill:var(--muted)}
+.t-nc{font-size:10.5px;fill:var(--nc);font-style:italic}
+.t-wire{font-size:12px;fill:var(--fg);font-weight:500}
+.hatchl{stroke:var(--line)}
+/* reference grid */
+.grid{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--sheet)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;font-variant-numeric:tabular-nums}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:500;position:sticky;top:0;background:var(--sheet)}
+tr:last-child td{border-bottom:0}
+td.g{font-family:var(--f-mono);white-space:nowrap;font-weight:500}
+td.h{font-family:var(--f-mono);white-space:nowrap;color:var(--muted)}
+.chip{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px;vertical-align:baseline;background:currentColor}
+tr.grp td{background:var(--bg);font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-block:5px}
+ol.notes{margin:0;padding-left:1.3em;display:grid;gap:10px;max-width:70ch}
+ol.notes li::marker{font-family:var(--f-mono);color:var(--accent)}
+ol.notes b{font-weight:600}
+.avoidlist{display:grid;gap:6px;font-size:13.5px;margin:0;padding:0;list-style:none}
+.avoidlist code,.notes code,td code{font-family:var(--f-mono);font-size:.92em;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:0 4px}
+.codebox{position:relative;background:var(--sheet);border:1px solid var(--line);border-radius:10px}
+.codebox pre{margin:0;padding:16px;overflow-x:auto;font-family:var(--f-mono);font-size:12.8px;line-height:1.6}
+.codebox .c{color:var(--muted)}
+.copy{position:absolute;top:10px;right:10px;font-family:var(--f-mono);font-size:12px;border:1px solid var(--line);background:var(--bg);color:var(--fg);border-radius:6px;padding:4px 10px;cursor:pointer}
+.copy:hover{border-color:var(--accent)} .copy:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.sub{color:var(--muted);font-size:13.5px;margin:-4px 0 12px;max-width:80ch}
+</style>
+<div class="wrap">
+<header>
+  <div class="eyebrow">ESP32-S3 HMI · tilted "Monolith" enclosure</div>
+  <h1>Monolith HMI Wiring</h1>
+  <p class="lede">Every connection for the ESP32-S3 N16R8 board, the 2.8" ILI9341 touch display, the HW-040 encoder, the TTP223 touch key, the ZS-042 RTC and the AHT10, plus the 12 V supply. I chose the GPIOs to avoid the board's reserved pins and to keep wire crossings to a minimum.</p>
+</header>
+
+<section>
+  <h2>Signal wiring</h2>
+  <p class="sub">The pins are drawn in the board's physical header order, antenna end at the top and the USB-C ports at the bottom. Power pins on the modules carry a rail flag instead of a wire. The power section below shows how those rails are wired.</p>
+  <figure>
+    <div class="scroll">
+<svg viewBox="0 0 1180 796" role="img" aria-label="Signal wiring: every module pin connected to its ESP32-S3 GPIO; power pins are marked with rail flags." class="wd">
+<defs><pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" class="hatchl"/></pattern></defs>
+<polyline points="256,200 296,200 296,200 470,200" class="w io"/>
+<polyline points="256,354 306,354 306,304 470,304" class="w io"/>
+<polyline points="256,518 316,518 316,278 470,278" class="w spi"/>
+<polyline points="256,540 326,540 326,330 470,330" class="w spi"/>
+<polyline points="256,226 336,226 336,226 470,226" class="w io"/>
+<polyline points="256,562 346,562 346,356 470,356" class="w spi"/>
+<polyline points="256,584 356,584 356,512 470,512" class="w spi"/>
+<polyline points="256,628 366,628 366,460 470,460" class="w spi"/>
+<polyline points="256,694 376,694 376,486 470,486" class="w tch"/>
+<polyline points="256,716 386,716 386,512 470,512" class="w tch"/>
+<circle cx="356" cy="512" r="3.2" class="dot tch"/>
+<polyline points="256,606 396,606 396,538 470,538" class="w spi"/>
+<polyline points="256,672 406,672 406,538 470,538" class="w tch"/>
+<circle cx="396" cy="538" r="3.2" class="dot tch"/>
+<polyline points="256,738 416,738 416,564 470,564" class="w tch"/>
+<polyline points="256,760 426,760 426,590 470,590" class="w tch"/>
+<polyline points="256,174 436,174 436,174 470,174" class="w io"/>
+<polyline points="924,446 760,446 760,278 710,278" class="w aht"/>
+<polyline points="924,200 774,200 774,200 710,200" class="w rtc"/>
+<polyline points="924,420 788,420 788,252 710,252" class="w aht"/>
+<polyline points="924,226 802,226 802,226 710,226" class="w rtc"/>
+<polyline points="924,174 816,174 816,174 710,174" class="w rtc"/>
+<rect x="470" y="20" width="240" height="666" rx="6" class="board"/>
+<rect x="540.0" y="26" width="100" height="44" rx="2" class="module"/>
+<text x="590.0" y="45" class="t-mod" text-anchor="middle">WROOM-1</text><text x="590.0" y="60" class="t-sub" text-anchor="middle">N16R8</text>
+<text x="590.0" y="330" class="t-title" text-anchor="middle">ESP32-S3</text>
+<text x="590.0" y="348" class="t-sub" text-anchor="middle">DevKitC-1 clone</text>
+<text x="590.0" y="382" class="t-sub" text-anchor="middle">top view</text>
+<rect x="543.0" y="670" width="34" height="16" rx="4" class="usb"/><text x="560.0" y="662" class="t-sub" text-anchor="middle">COM</text>
+<rect x="603.0" y="670" width="34" height="16" rx="4" class="usb"/><text x="620.0" y="662" class="t-sub" text-anchor="middle">USB</text>
+<circle cx="470" cy="96" r="5" class="pin pw3"/>
+<text x="482" y="100" class="t-pin pw3" text-anchor="start">3V3</text>
+<circle cx="470" cy="122" r="5" class="pin pw3"/>
+<text x="482" y="126" class="t-pin pw3" text-anchor="start">3V3</text>
+<circle cx="470" cy="148" r="5" class="pin free"/>
+<text x="482" y="152" class="t-pin free" text-anchor="start">RST</text>
+<circle cx="470" cy="174" r="5" class="pin io"/>
+<text x="482" y="178" class="t-pin io" text-anchor="start">GPIO4</text>
+<circle cx="470" cy="200" r="5" class="pin io"/>
+<text x="482" y="204" class="t-pin io" text-anchor="start">GPIO5</text>
+<circle cx="470" cy="226" r="5" class="pin io"/>
+<text x="482" y="230" class="t-pin io" text-anchor="start">GPIO6</text>
+<circle cx="470" cy="252" r="5" class="pin free"/>
+<text x="482" y="256" class="t-pin free" text-anchor="start">GPIO7</text>
+<circle cx="470" cy="278" r="5" class="pin spi"/>
+<text x="482" y="282" class="t-pin spi" text-anchor="start">GPIO15</text>
+<circle cx="470" cy="304" r="5" class="pin io"/>
+<text x="482" y="308" class="t-pin io" text-anchor="start">GPIO16</text>
+<circle cx="470" cy="330" r="5" class="pin spi"/>
+<text x="482" y="334" class="t-pin spi" text-anchor="start">GPIO17</text>
+<circle cx="470" cy="356" r="5" class="pin spi"/>
+<text x="482" y="360" class="t-pin spi" text-anchor="start">GPIO18</text>
+<circle cx="470" cy="382" r="5" class="pin free"/>
+<text x="482" y="386" class="t-pin free" text-anchor="start">GPIO8</text>
+<circle cx="470" cy="408" r="5" class="pin avoid"/>
+<text x="482" y="412" class="t-pin avoid" text-anchor="start">GPIO3</text>
+<circle cx="470" cy="434" r="5" class="pin avoid"/>
+<text x="482" y="438" class="t-pin avoid" text-anchor="start">GPIO46</text>
+<circle cx="470" cy="460" r="5" class="pin spi"/>
+<text x="482" y="464" class="t-pin spi" text-anchor="start">GPIO9</text>
+<circle cx="470" cy="486" r="5" class="pin tch"/>
+<text x="482" y="490" class="t-pin tch" text-anchor="start">GPIO10</text>
+<circle cx="470" cy="512" r="5" class="pin spi"/>
+<text x="482" y="516" class="t-pin spi" text-anchor="start">GPIO11</text>
+<circle cx="470" cy="538" r="5" class="pin spi"/>
+<text x="482" y="542" class="t-pin spi" text-anchor="start">GPIO12</text>
+<circle cx="470" cy="564" r="5" class="pin tch"/>
+<text x="482" y="568" class="t-pin tch" text-anchor="start">GPIO13</text>
+<circle cx="470" cy="590" r="5" class="pin tch"/>
+<text x="482" y="594" class="t-pin tch" text-anchor="start">GPIO14</text>
+<circle cx="470" cy="616" r="5" class="pin pw5"/>
+<text x="482" y="620" class="t-pin pw5" text-anchor="start">5V</text>
+<circle cx="470" cy="642" r="5" class="pin gnd"/>
+<text x="482" y="646" class="t-pin gnd" text-anchor="start">GND</text>
+<circle cx="710" cy="96" r="5" class="pin gnd"/>
+<text x="698" y="100" class="t-pin gnd" text-anchor="end">GND</text>
+<circle cx="710" cy="122" r="5" class="pin avoid"/>
+<text x="698" y="126" class="t-pin avoid" text-anchor="end">43 TX</text>
+<circle cx="710" cy="148" r="5" class="pin avoid"/>
+<text x="698" y="152" class="t-pin avoid" text-anchor="end">44 RX</text>
+<circle cx="710" cy="174" r="5" class="pin rtc"/>
+<text x="698" y="178" class="t-pin rtc" text-anchor="end">GPIO1</text>
+<circle cx="710" cy="200" r="5" class="pin rtc"/>
+<text x="698" y="204" class="t-pin rtc" text-anchor="end">GPIO2</text>
+<circle cx="710" cy="226" r="5" class="pin rtc"/>
+<text x="698" y="230" class="t-pin rtc" text-anchor="end">GPIO42</text>
+<circle cx="710" cy="252" r="5" class="pin aht"/>
+<text x="698" y="256" class="t-pin aht" text-anchor="end">GPIO41</text>
+<circle cx="710" cy="278" r="5" class="pin aht"/>
+<text x="698" y="282" class="t-pin aht" text-anchor="end">GPIO40</text>
+<circle cx="710" cy="304" r="5" class="pin free"/>
+<text x="698" y="308" class="t-pin free" text-anchor="end">GPIO39</text>
+<circle cx="710" cy="330" r="5" class="pin free"/>
+<text x="698" y="334" class="t-pin free" text-anchor="end">GPIO38</text>
+<circle cx="710" cy="356" r="5" class="pin avoid"/>
+<text x="698" y="360" class="t-pin avoid" text-anchor="end">GPIO37</text>
+<circle cx="710" cy="382" r="5" class="pin avoid"/>
+<text x="698" y="386" class="t-pin avoid" text-anchor="end">GPIO36</text>
+<circle cx="710" cy="408" r="5" class="pin avoid"/>
+<text x="698" y="412" class="t-pin avoid" text-anchor="end">GPIO35</text>
+<circle cx="710" cy="434" r="5" class="pin avoid"/>
+<text x="698" y="438" class="t-pin avoid" text-anchor="end">GPIO0</text>
+<circle cx="710" cy="460" r="5" class="pin avoid"/>
+<text x="698" y="464" class="t-pin avoid" text-anchor="end">GPIO45</text>
+<circle cx="710" cy="486" r="5" class="pin free"/>
+<text x="698" y="490" class="t-pin free" text-anchor="end">GPIO48</text>
+<circle cx="710" cy="512" r="5" class="pin free"/>
+<text x="698" y="516" class="t-pin free" text-anchor="end">GPIO47</text>
+<circle cx="710" cy="538" r="5" class="pin free"/>
+<text x="698" y="542" class="t-pin free" text-anchor="end">GPIO21</text>
+<circle cx="710" cy="564" r="5" class="pin avoid"/>
+<text x="698" y="568" class="t-pin avoid" text-anchor="end">GPIO20</text>
+<circle cx="710" cy="590" r="5" class="pin avoid"/>
+<text x="698" y="594" class="t-pin avoid" text-anchor="end">GPIO19</text>
+<circle cx="710" cy="616" r="5" class="pin gnd"/>
+<text x="698" y="620" class="t-pin gnd" text-anchor="end">GND</text>
+<circle cx="710" cy="642" r="5" class="pin gnd"/>
+<text x="698" y="646" class="t-pin gnd" text-anchor="end">GND</text>
+<rect x="20" y="140" width="220" height="154" rx="6" class="mbox"/>
+<text x="34" y="158" class="t-mod" text-anchor="start">HW-040</text>
+<text x="230" y="178" class="t-pin" text-anchor="end">CLK</text>
+<line x1="240" y1="174" x2="256" y2="174" class="w io"/>
+<circle cx="240" cy="174" r="4" class="pin io"/>
+<text x="230" y="204" class="t-pin" text-anchor="end">DT</text>
+<line x1="240" y1="200" x2="256" y2="200" class="w io"/>
+<circle cx="240" cy="200" r="4" class="pin io"/>
+<text x="230" y="230" class="t-pin" text-anchor="end">SW</text>
+<line x1="240" y1="226" x2="256" y2="226" class="w io"/>
+<circle cx="240" cy="226" r="4" class="pin io"/>
+<text x="230" y="256" class="t-pin" text-anchor="end">+</text>
+<line x1="240" y1="252" x2="256" y2="252" class="w pw3"/>
+<rect x="258" y="244" width="36" height="16" rx="8" class="flag pw3"/><text x="276" y="256" class="t-flag" text-anchor="middle">3V3</text>
+<circle cx="240" cy="252" r="4" class="pin pw3"/>
+<text x="230" y="282" class="t-pin" text-anchor="end">GND</text>
+<line x1="240" y1="278" x2="256" y2="278" class="w gnd"/>
+<rect x="258" y="270" width="36" height="16" rx="8" class="flag gnd"/><text x="276" y="282" class="t-flag" text-anchor="middle">GND</text>
+<circle cx="240" cy="278" r="4" class="pin gnd"/>
+<rect x="20" y="320" width="220" height="94" rx="6" class="mbox"/>
+<text x="34" y="338" class="t-mod" text-anchor="start">TTP223</text>
+<text x="230" y="358" class="t-pin" text-anchor="end">I/O</text>
+<line x1="240" y1="354" x2="256" y2="354" class="w io"/>
+<circle cx="240" cy="354" r="4" class="pin io"/>
+<text x="230" y="380" class="t-pin" text-anchor="end">VCC</text>
+<line x1="240" y1="376" x2="256" y2="376" class="w pw3"/>
+<rect x="258" y="368" width="36" height="16" rx="8" class="flag pw3"/><text x="276" y="380" class="t-flag" text-anchor="middle">3V3</text>
+<circle cx="240" cy="376" r="4" class="pin pw3"/>
+<text x="230" y="402" class="t-pin" text-anchor="end">GND</text>
+<line x1="240" y1="398" x2="256" y2="398" class="w gnd"/>
+<rect x="258" y="390" width="36" height="16" rx="8" class="flag gnd"/><text x="276" y="402" class="t-flag" text-anchor="middle">GND</text>
+<circle cx="240" cy="398" r="4" class="pin gnd"/>
+<rect x="20" y="440" width="220" height="336" rx="6" class="mbox"/>
+<text x="34" y="458" class="t-mod" text-anchor="start">2.8" TFT MSP2807</text>
+<text x="230" y="478" class="t-pin" text-anchor="end">VCC</text>
+<line x1="240" y1="474" x2="256" y2="474" class="w pw5"/>
+<rect x="258" y="466" width="36" height="16" rx="8" class="flag pw5"/><text x="276" y="478" class="t-flag" text-anchor="middle">5V</text>
+<circle cx="240" cy="474" r="4" class="pin pw5"/>
+<text x="230" y="500" class="t-pin" text-anchor="end">GND</text>
+<line x1="240" y1="496" x2="256" y2="496" class="w gnd"/>
+<rect x="258" y="488" width="36" height="16" rx="8" class="flag gnd"/><text x="276" y="500" class="t-flag" text-anchor="middle">GND</text>
+<circle cx="240" cy="496" r="4" class="pin gnd"/>
+<text x="230" y="522" class="t-pin" text-anchor="end">CS</text>
+<line x1="240" y1="518" x2="256" y2="518" class="w spi"/>
+<circle cx="240" cy="518" r="4" class="pin spi"/>
+<text x="230" y="544" class="t-pin" text-anchor="end">RESET</text>
+<line x1="240" y1="540" x2="256" y2="540" class="w spi"/>
+<circle cx="240" cy="540" r="4" class="pin spi"/>
+<text x="230" y="566" class="t-pin" text-anchor="end">DC</text>
+<line x1="240" y1="562" x2="256" y2="562" class="w spi"/>
+<circle cx="240" cy="562" r="4" class="pin spi"/>
+<text x="230" y="588" class="t-pin" text-anchor="end">SDI (MOSI)</text>
+<line x1="240" y1="584" x2="256" y2="584" class="w spi"/>
+<circle cx="240" cy="584" r="4" class="pin spi"/>
+<text x="230" y="610" class="t-pin" text-anchor="end">SCK</text>
+<line x1="240" y1="606" x2="256" y2="606" class="w spi"/>
+<circle cx="240" cy="606" r="4" class="pin spi"/>
+<text x="230" y="632" class="t-pin" text-anchor="end">LED</text>
+<line x1="240" y1="628" x2="256" y2="628" class="w spi"/>
+<circle cx="240" cy="628" r="4" class="pin spi"/>
+<text x="230" y="654" class="t-pin" text-anchor="end">SDO (MISO)</text>
+<line x1="240" y1="650" x2="256" y2="650" class="w nc"/>
+<text x="262" y="654" class="t-nc" text-anchor="start">n.c.</text>
+<circle cx="240" cy="650" r="4" class="pin nc"/>
+<text x="230" y="676" class="t-pin" text-anchor="end">T_CLK</text>
+<line x1="240" y1="672" x2="256" y2="672" class="w tch"/>
+<circle cx="240" cy="672" r="4" class="pin tch"/>
+<text x="230" y="698" class="t-pin" text-anchor="end">T_CS</text>
+<line x1="240" y1="694" x2="256" y2="694" class="w tch"/>
+<circle cx="240" cy="694" r="4" class="pin tch"/>
+<text x="230" y="720" class="t-pin" text-anchor="end">T_DIN</text>
+<line x1="240" y1="716" x2="256" y2="716" class="w tch"/>
+<circle cx="240" cy="716" r="4" class="pin tch"/>
+<text x="230" y="742" class="t-pin" text-anchor="end">T_DO</text>
+<line x1="240" y1="738" x2="256" y2="738" class="w tch"/>
+<circle cx="240" cy="738" r="4" class="pin tch"/>
+<text x="230" y="764" class="t-pin" text-anchor="end">T_IRQ</text>
+<line x1="240" y1="760" x2="256" y2="760" class="w tch"/>
+<circle cx="240" cy="760" r="4" class="pin tch"/>
+<rect x="940" y="114" width="220" height="180" rx="6" class="mbox"/>
+<text x="1146" y="132" class="t-mod" text-anchor="end">ZS-042</text>
+<text x="950" y="152" class="t-pin" text-anchor="start">32K</text>
+<line x1="940" y1="148" x2="924" y2="148" class="w nc"/>
+<text x="918" y="152" class="t-nc" text-anchor="end">n.c.</text>
+<circle cx="940" cy="148" r="4" class="pin nc"/>
+<text x="950" y="178" class="t-pin" text-anchor="start">SQW</text>
+<line x1="940" y1="174" x2="924" y2="174" class="w rtc"/>
+<circle cx="940" cy="174" r="4" class="pin rtc"/>
+<text x="950" y="204" class="t-pin" text-anchor="start">SCL</text>
+<line x1="940" y1="200" x2="924" y2="200" class="w rtc"/>
+<circle cx="940" cy="200" r="4" class="pin rtc"/>
+<text x="950" y="230" class="t-pin" text-anchor="start">SDA</text>
+<line x1="940" y1="226" x2="924" y2="226" class="w rtc"/>
+<circle cx="940" cy="226" r="4" class="pin rtc"/>
+<text x="950" y="256" class="t-pin" text-anchor="start">VCC</text>
+<line x1="940" y1="252" x2="924" y2="252" class="w pw3"/>
+<rect x="886" y="244" width="36" height="16" rx="8" class="flag pw3"/><text x="904" y="256" class="t-flag" text-anchor="middle">3V3</text>
+<circle cx="940" cy="252" r="4" class="pin pw3"/>
+<text x="950" y="282" class="t-pin" text-anchor="start">GND</text>
+<line x1="940" y1="278" x2="924" y2="278" class="w gnd"/>
+<rect x="886" y="270" width="36" height="16" rx="8" class="flag gnd"/><text x="904" y="282" class="t-flag" text-anchor="middle">GND</text>
+<circle cx="940" cy="278" r="4" class="pin gnd"/>
+<rect x="940" y="334" width="220" height="128" rx="6" class="mbox"/>
+<text x="1146" y="352" class="t-mod" text-anchor="end">AHT10</text>
+<text x="950" y="372" class="t-pin" text-anchor="start">VIN</text>
+<line x1="940" y1="368" x2="924" y2="368" class="w pw3"/>
+<rect x="886" y="360" width="36" height="16" rx="8" class="flag pw3"/><text x="904" y="372" class="t-flag" text-anchor="middle">3V3</text>
+<circle cx="940" cy="368" r="4" class="pin pw3"/>
+<text x="950" y="398" class="t-pin" text-anchor="start">GND</text>
+<line x1="940" y1="394" x2="924" y2="394" class="w gnd"/>
+<rect x="886" y="386" width="36" height="16" rx="8" class="flag gnd"/><text x="904" y="398" class="t-flag" text-anchor="middle">GND</text>
+<circle cx="940" cy="394" r="4" class="pin gnd"/>
+<text x="950" y="424" class="t-pin" text-anchor="start">SCL</text>
+<line x1="940" y1="420" x2="924" y2="420" class="w aht"/>
+<circle cx="940" cy="420" r="4" class="pin aht"/>
+<text x="950" y="450" class="t-pin" text-anchor="start">SDA</text>
+<line x1="940" y1="446" x2="924" y2="446" class="w aht"/>
+<circle cx="940" cy="446" r="4" class="pin aht"/>
+</svg>
+    </div>
+    <div class="legend" aria-label="Wire colours">
+      <span style="color:var(--spi)"><i></i>Display SPI + control</span>
+      <span style="color:var(--tch)"><i></i>Touch panel (XPT2046)</span>
+      <span style="color:var(--io)"><i></i>Encoder + touch key</span>
+      <span style="color:var(--rtc)"><i></i>I²C bus 0 · RTC</span>
+      <span style="color:var(--aht)"><i></i>I²C bus 1 · AHT10</span>
+      <span style="color:var(--nc)"><i></i>Leave unconnected</span>
+      <span style="color:var(--muted)">Struck-through pins: reserved on this board, don't use</span>
+    </div>
+    <figcaption>The display and touch controller share one SPI bus (GPIO 11/12/13, the S3's fast IO_MUX pins). A dot marks where two module pins join the same wire. The display's SDO line is left open on purpose, see note 4. The RTC and AHT10 each get their own I²C bus.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>Power</h2>
+  <figure>
+    <div class="scroll">
+<svg viewBox="0 0 1180 400" role="img" aria-label="Power path: 12 V jack through reverse-polarity diode into the MP1584 buck set to 5.3 V, then through a second diode onto the 5 V rail feeding the ESP32 board and the TFT; the board's 3.3 V regulator feeds the encoder, touch key, RTC and AHT10." class="wd">
+<!-- 12 V input -->
+<rect x="20" y="34" width="140" height="76" rx="6" class="mbox"/>
+<text x="34" y="56" class="t-mod">DC jack</text><text x="34" y="72" class="t-sub">5.5/2.1 · 12 V in</text>
+<circle cx="160" cy="58" r="4" class="pin pw12"/><text x="150" y="62" class="t-pin" text-anchor="end">+</text>
+<circle cx="160" cy="94" r="4" class="pin gnd"/><text x="150" y="98" class="t-pin" text-anchor="end">−</text>
+<line x1="160" y1="58" x2="300" y2="58" class="w pw12"/>
+<polygon points="212,48 212,68 232,58" class="diode"/><line x1="233" y1="47" x2="233" y2="69" class="w diodebar"/>
+<text x="222" y="38" class="t-pin" text-anchor="middle">D1 SS34</text>
+<text x="222" y="86" class="t-sub" text-anchor="middle">reverse polarity</text>
+<line x1="160" y1="94" x2="300" y2="94" class="w gnd"/>
+<text x="268" y="52" class="t-wire" text-anchor="middle">12 V</text>
+<!-- buck -->
+<rect x="300" y="26" width="190" height="92" rx="6" class="mbox"/>
+<text x="395" y="52" class="t-mod" text-anchor="middle">MP1584 buck</text>
+<text x="395" y="80" class="t-sub" text-anchor="middle">set 5.3 V before wiring</text>
+<circle cx="300" cy="58" r="4" class="pin pw12"/><text x="310" y="98" class="t-pin">IN−</text>
+<circle cx="300" cy="94" r="4" class="pin gnd"/><text x="310" y="62" class="t-pin">IN+</text><text x="480" y="62" class="t-pin" text-anchor="end">OUT+</text>
+<text x="480" y="98" class="t-pin" text-anchor="end">OUT−</text>
+<circle cx="490" cy="58" r="4" class="pin pw5"/><circle cx="490" cy="94" r="4" class="pin gnd"/>
+<!-- 5 V rail -->
+<line x1="490" y1="58" x2="1120" y2="58" class="w pw5 rail"/>
+<polygon points="620,48 620,68 640,58" class="diode"/><line x1="641" y1="47" x2="641" y2="69" class="w diodebar"/>
+<text x="630" y="38" class="t-pin" text-anchor="middle">D2 SS34</text>
+<text x="630" y="86" class="t-sub" text-anchor="middle">blocks USB backfeed</text>
+<text x="760" y="50" class="t-wire">5 V rail ≈ 5.0 V</text>
+<!-- GND return -->
+<polyline points="490,94 560,94 560,206 640,206" class="w gnd rail"/>
+<text x="568" y="150" class="t-wire">GND</text>
+<!-- devkit -->
+<rect x="640" y="150" width="210" height="110" rx="6" class="board"/>
+<text x="745" y="176" class="t-mod" text-anchor="middle">ESP32-S3 board</text>
+<text x="745" y="192" class="t-sub" text-anchor="middle">onboard 3.3 V LDO</text>
+<line x1="720" y1="58" x2="720" y2="150" class="w pw5"/><circle cx="720" cy="58" r="3.2" class="dot pw5"/>
+<circle cx="720" cy="150" r="4" class="pin pw5"/><text x="728" y="142" class="t-pin">5V · J1-21</text>
+<circle cx="640" cy="206" r="4" class="pin gnd"/><text x="650" y="210" class="t-pin">GND · J1-22</text>
+<circle cx="745" cy="260" r="4" class="pin pw3"/><text x="753" y="252" class="t-pin">3V3 · J1-1</text>
+<!-- TFT on 5 V -->
+<line x1="1060" y1="58" x2="1060" y2="150" class="w pw5"/><circle cx="1060" cy="58" r="3.2" class="dot pw5"/>
+<rect x="960" y="150" width="200" height="64" rx="6" class="mbox"/>
+<circle cx="1060" cy="150" r="4" class="pin pw5"/>
+<text x="1060" y="176" class="t-mod" text-anchor="middle">TFT VCC</text>
+<text x="1060" y="194" class="t-sub" text-anchor="middle">jumper J1 on TFT open</text>
+<text x="1052" y="110" class="t-sub" text-anchor="end">≈ 80 mA, mostly backlight</text>
+<!-- 3V3 rail -->
+<polyline points="745,260 745,300 1120,300" class="w pw3 rail"/>
+<text x="760" y="292" class="t-wire">3.3 V rail · &lt; 10 mA total</text>
+<g>
+<line x1="830" y1="300" x2="830" y2="330" class="w pw3"/><circle cx="830" cy="300" r="3.2" class="dot pw3"/>
+<rect x="786" y="330" width="88" height="46" rx="6" class="mbox"/><text x="830" y="350" class="t-mod" text-anchor="middle">HW-040</text><text x="830" y="366" class="t-sub" text-anchor="middle">+</text>
+<line x1="930" y1="300" x2="930" y2="330" class="w pw3"/><circle cx="930" cy="300" r="3.2" class="dot pw3"/>
+<rect x="886" y="330" width="88" height="46" rx="6" class="mbox"/><text x="930" y="350" class="t-mod" text-anchor="middle">TTP223</text><text x="930" y="366" class="t-sub" text-anchor="middle">VCC</text>
+<line x1="1030" y1="300" x2="1030" y2="330" class="w pw3"/><circle cx="1030" cy="300" r="3.2" class="dot pw3"/>
+<rect x="986" y="330" width="88" height="46" rx="6" class="mbox"/><text x="1030" y="350" class="t-mod" text-anchor="middle">ZS-042</text><text x="1030" y="366" class="t-sub" text-anchor="middle">VCC</text>
+<line x1="1120" y1="300" x2="1120" y2="330" class="w pw3"/>
+<rect x="1076" y="330" width="88" height="46" rx="6" class="mbox"/><text x="1120" y="350" class="t-mod" text-anchor="middle">AHT10</text><text x="1120" y="366" class="t-sub" text-anchor="middle">VIN</text>
+</g>
+<text x="20" y="190" class="t-sub">Load at 5 V: ESP32-S3 Wi-Fi peaks ≈ 0.5 A</text>
+<text x="20" y="208" class="t-sub">+ TFT ≈ 0.08 A → under 0.7 A</text>
+<text x="20" y="226" class="t-sub">≈ 0.35 A from the 12 V supply</text>
+<text x="20" y="262" class="t-sub">Every module GND returns to the</text>
+<text x="20" y="280" class="t-sub">ESP32 board GND pins (star point).</text>
+</svg>
+
+    </div>
+    <div class="legend">
+      <span style="color:var(--pw12)"><i></i>12 V</span>
+      <span style="color:var(--pw5)"><i></i>5 V rail</span>
+      <span style="color:var(--pw3)"><i></i>3.3 V rail</span>
+      <span style="color:var(--gnd)"><i></i>GND</span>
+    </div>
+    <figcaption>12 V comes in through D1 (reverse-polarity protection), the MP1584 steps it down, and D2 feeds the 5 V rail. D2 drops about 0.3 V, so set the buck to 5.3 V. The display runs from 5 V through its own regulator. All the small modules run from the ESP32 board's 3.3 V pin, so every signal into the ESP32 stays at 3.3 V.</figcaption>
+  </figure>
+</section>
+
+<section class="grid">
+  <div>
+    <h2>Pin map</h2>
+    <div class="tbl">
+      <table>
+        <thead><tr><th>GPIO</th><th>Header</th><th>Function</th><th>Module pin</th></tr></thead>
+        <tbody>
+          <tr class="grp"><td colspan="4">Display + touch (SPI)</td></tr>
+          <tr><td class="g" style="color:var(--spi)"><span class="chip"></span>11</td><td class="h">J1-17</td><td>MOSI</td><td>TFT SDI (MOSI) + T_DIN</td></tr>
+          <tr><td class="g" style="color:var(--spi)"><span class="chip"></span>12</td><td class="h">J1-18</td><td>SCK</td><td>TFT SCK + T_CLK</td></tr>
+          <tr><td class="g" style="color:var(--tch)"><span class="chip"></span>13</td><td class="h">J1-19</td><td>MISO</td><td>T_DO only (TFT SDO open)</td></tr>
+          <tr><td class="g" style="color:var(--spi)"><span class="chip"></span>15</td><td class="h">J1-8</td><td>TFT_CS</td><td>TFT CS</td></tr>
+          <tr><td class="g" style="color:var(--spi)"><span class="chip"></span>17</td><td class="h">J1-10</td><td>TFT_RST</td><td>TFT RESET</td></tr>
+          <tr><td class="g" style="color:var(--spi)"><span class="chip"></span>18</td><td class="h">J1-11</td><td>TFT_DC</td><td>TFT DC</td></tr>
+          <tr><td class="g" style="color:var(--spi)"><span class="chip"></span>9</td><td class="h">J1-15</td><td>Backlight PWM</td><td>TFT LED</td></tr>
+          <tr><td class="g" style="color:var(--tch)"><span class="chip"></span>10</td><td class="h">J1-16</td><td>TOUCH_CS</td><td>T_CS</td></tr>
+          <tr><td class="g" style="color:var(--tch)"><span class="chip"></span>14</td><td class="h">J1-20</td><td>TOUCH_IRQ (low = pressed)</td><td>T_IRQ</td></tr>
+          <tr class="grp"><td colspan="4">Controls</td></tr>
+          <tr><td class="g" style="color:var(--io)"><span class="chip"></span>4</td><td class="h">J1-4</td><td>Encoder A</td><td>HW-040 CLK</td></tr>
+          <tr><td class="g" style="color:var(--io)"><span class="chip"></span>5</td><td class="h">J1-5</td><td>Encoder B</td><td>HW-040 DT</td></tr>
+          <tr><td class="g" style="color:var(--io)"><span class="chip"></span>6</td><td class="h">J1-6</td><td>Encoder push (low = pressed)</td><td>HW-040 SW</td></tr>
+          <tr><td class="g" style="color:var(--io)"><span class="chip"></span>16</td><td class="h">J1-9</td><td>Back key (high = touched)</td><td>TTP223 I/O</td></tr>
+          <tr class="grp"><td colspan="4">I²C bus 0 · RTC</td></tr>
+          <tr><td class="g" style="color:var(--rtc)"><span class="chip"></span>42</td><td class="h">J3-6</td><td>SDA</td><td>ZS-042 SDA (0x68, EEPROM 0x57)</td></tr>
+          <tr><td class="g" style="color:var(--rtc)"><span class="chip"></span>2</td><td class="h">J3-5</td><td>SCL</td><td>ZS-042 SCL</td></tr>
+          <tr><td class="g" style="color:var(--rtc)"><span class="chip"></span>1</td><td class="h">J3-4</td><td>Alarm / 1 Hz interrupt</td><td>ZS-042 SQW</td></tr>
+          <tr class="grp"><td colspan="4">I²C bus 1 · AHT10</td></tr>
+          <tr><td class="g" style="color:var(--aht)"><span class="chip"></span>40</td><td class="h">J3-8</td><td>SDA</td><td>AHT10 SDA (0x38)</td></tr>
+          <tr><td class="g" style="color:var(--aht)"><span class="chip"></span>41</td><td class="h">J3-7</td><td>SCL</td><td>AHT10 SCL</td></tr>
+          <tr class="grp"><td colspan="4">Power</td></tr>
+          <tr><td class="g" style="color:var(--pw5)"><span class="chip"></span>5V</td><td class="h">J1-21</td><td>In from buck via D2</td><td>TFT VCC</td></tr>
+          <tr><td class="g" style="color:var(--pw3)"><span class="chip"></span>3V3</td><td class="h">J1-1, J1-2</td><td>Board regulator out</td><td>HW-040 +, TTP223 VCC, ZS-042 VCC, AHT10 VIN</td></tr>
+          <tr><td class="g" style="color:var(--gnd)"><span class="chip"></span>GND</td><td class="h">J1-22, J3-1/21/22</td><td>Common ground</td><td>Every module GND, buck OUT−</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sub" style="margin-top:10px">Still free for later: GPIO 7, 8, 21, 38, 39, 47. GPIO 48 drives the onboard RGB LED on most of these clones.</p>
+  </div>
+
+  <div>
+    <h2>Pins left alone</h2>
+    <ul class="avoidlist">
+      <li><code>35 36 37</code> used internally by the N16R8's octal PSRAM. Using them crashes the board.</li>
+      <li><code>0 3 45 46</code> strapping pins that set the boot mode. A module pulling one of them at reset can stop the board booting.</li>
+      <li><code>19 20</code> the native USB-C port ("USB").</li>
+      <li><code>43 44</code> UART0 to the CH343 chip on the "COM" USB-C port. Keep it for flashing and logs.</li>
+    </ul>
+
+    <h2 style="margin-top:26px">Build notes</h2>
+    <ol class="notes">
+      <li><b>Set the buck first.</b> Power the MP1584 alone from 12 V and turn its trimmer to 5.3 V with a multimeter. Only then connect anything to it.</li>
+      <li><b>Two SS34 diodes.</b> D1 in the 12 V+ wire protects the buck against a reversed plug, because the MP1584 has no protection of its own. D2 between buck OUT+ and the board's 5V pin stops USB power flowing back into the buck when you flash over USB-C. D2 does not stop the 5 V rail feeding the PC, so unless you know your board has a diode on VBUS, unplug 12 V while USB is connected.</li>
+      <li><b>Display power.</b> Feed TFT VCC from 5 V and leave the J1 solder jumper on the display open, so its own 3.3 V regulator runs. The display's logic is 3.3 V, so the data lines can go straight to the ESP32.</li>
+      <li><b>Leave the display's SDO (MISO) open.</b> On these modules the ILI9341 doesn't release MISO when not selected, which corrupts touch readings. Only T_DO goes to GPIO 13. You never need to read back from the display.</li>
+      <li><b>Encoder on 3.3 V only.</b> The HW-040's pull-up resistors go to its + pin, so 5 V there would put 5 V on GPIO 4–6. If the encoder skips steps, add a 100 nF capacitor from CLK to GND and another from DT to GND.</li>
+      <li><b>ZS-042 with a CR2032.</b> The module has a charging circuit (a 200 Ω resistor in series with a diode, near the battery) that tries to charge the coin cell. Remove that resistor when fitting a normal non-rechargeable CR2032.</li>
+      <li><b>AHT10 on its own bus.</b> The AHT10 is known to misbehave when it shares an I²C bus with other devices. A second bus costs two pins you have to spare. Its module already has pull-up resistors.</li>
+      <li><b>Wire.</b> Use 22 AWG for 12 V, 5 V and the buck-to-board GND, and 26–28 AWG silicone wire for signals. Keep the SPI wires to the display under about 15 cm. Put the display, encoder and touch key on plug-in connectors so the bezel can come off for service.</li>
+    </ol>
+  </div>
+</section>
+
+<section>
+  <h2>Firmware pin config</h2>
+  <p class="sub">For Arduino with the TFT_eSPI library. The defines go in TFT_eSPI's <code>User_Setup.h</code>, the rest in your sketch.</p>
+  <div class="codebox">
+    <button class="copy" id="copy-btn" type="button">Copy</button>
+<pre id="code"><span class="c">// ---- TFT_eSPI  User_Setup.h ----</span>
+#define ILI9341_DRIVER
+#define TFT_MOSI 11
+#define TFT_SCLK 12
+#define TFT_MISO 13            <span class="c">// wired to T_DO only</span>
+#define TFT_CS   15
+#define TFT_DC   18
+#define TFT_RST  17
+#define TFT_BL    9
+#define TFT_BACKLIGHT_ON HIGH
+#define TOUCH_CS 10
+#define SPI_FREQUENCY       40000000
+#define SPI_READ_FREQUENCY  20000000
+#define SPI_TOUCH_FREQUENCY  2500000
+<span class="c">// if the S3 resets as soon as tft.init() runs, also add:  #define USE_HSPI_PORT</span>
+
+<span class="c">// ---- pins.h ----</span>
+constexpr int PIN_ENC_A     = 4;   <span class="c">// HW-040 CLK</span>
+constexpr int PIN_ENC_B     = 5;   <span class="c">// HW-040 DT</span>
+constexpr int PIN_ENC_SW    = 6;   <span class="c">// LOW while pressed</span>
+constexpr int PIN_BACK_KEY  = 16;  <span class="c">// TTP223, HIGH while touched</span>
+constexpr int PIN_TOUCH_IRQ = 14;  <span class="c">// XPT2046, LOW while pressed</span>
+constexpr int PIN_RTC_SDA   = 42, PIN_RTC_SCL = 2, PIN_RTC_SQW = 1;
+constexpr int PIN_AHT_SDA   = 40, PIN_AHT_SCL = 41;
+
+void setupPins() {
+  pinMode(PIN_ENC_SW,    INPUT_PULLUP);
+  pinMode(PIN_BACK_KEY,  INPUT);
+  pinMode(PIN_TOUCH_IRQ, INPUT_PULLUP);
+  pinMode(PIN_RTC_SQW,   INPUT_PULLUP);       <span class="c">// SQW is open-drain</span>
+  Wire.begin(PIN_RTC_SDA, PIN_RTC_SCL, 400000);   <span class="c">// DS3231 0x68, AT24C32 0x57</span>
+  Wire1.begin(PIN_AHT_SDA, PIN_AHT_SCL, 100000);  <span class="c">// AHT10 0x38</span>
+}</pre>
+  </div>
+</section>
+</div>
+<script>
+(function(){
+  var b=document.getElementById('copy-btn'), c=document.getElementById('code');
+  b.addEventListener('click',function(){
+    var t=c.innerText;
+    function sel(){var r=document.createRange();r.selectNodeContents(c);var s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Selected — press Ctrl+C';}
+    try{navigator.clipboard.writeText(t).then(function(){b.textContent='Copied';setTimeout(function(){b.textContent='Copy'},1600)},sel);}catch(e){sel();}
+  });
+})();
+</script>
+
+</body></html>
